@@ -119,7 +119,6 @@ int main(void) {
     return 0;
 }
 
-
 double **createMatrix(int rows, int columns){
     int i, j;
     
@@ -142,7 +141,6 @@ double **createMatrix(int rows, int columns){
     return m;
 }
 
-
 void resetMatrix(int rows, int columns, double **m){
     int i, j;
     for(i=0; i<rows; i++)
@@ -150,14 +148,12 @@ void resetMatrix(int rows, int columns, double **m){
         m[i][j] = 0;
 }
 
-
 void freeMatrix(int rows, double **m) {
     while(--rows > -1){
         free(m[rows]);
     }
     free(m);
 }
-
 
 double average(double **D, int i, int j, int SMAT){
     double average = 0;
@@ -176,7 +172,6 @@ double average(double **D, int i, int j, int SMAT){
     
     return average;
 }
-
 
 double sigma(double **D,double med,int i, int j, int SMAT){
 	double sigma=0;
