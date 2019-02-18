@@ -1,4 +1,4 @@
-// Coded by Pietro Squilla
+// Coded by Pietro Squilla (aka ScratchyCode)
 // Compile with -lm
 #include <stdio.h>
 #include <math.h>
